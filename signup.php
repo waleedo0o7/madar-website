@@ -2,7 +2,7 @@
 
         <div class="account-pages vh-100">
             <div class="row vh-100">
-                <div class="col-lg-6 d-flex align-items-center justify-content-center left vh-100">
+                <div class="col-lg-6 d-flex align-items-start justify-content-center left vh-100">
 
                     <div class="page-content ">
 
@@ -13,8 +13,8 @@
 
                         <form>
                             
-                            <div class="form-group mb-3">
-                                <label for="username"> username </label>
+                            <div class="form-group mb-2">
+                                <label for="username"> Username </label>
                                 <input class="form-control" type="text" id="username" required="" placeholder="Enter your username">
                             </div>
 
@@ -28,21 +28,22 @@
                                 </div>
                             </div>
 
-                            <div class="form-group mb-3">
+                            <div class="form-group mb-2">
                                 <label for="customer-name"> Customer Name </label>
                                 <input class="form-control" type="text" id="customer-name" required="" placeholder="Enter Customer Name">
                             </div>
 
-                            <div class="form-group mb-3">
+                            <div class="form-group mb-2">
                                 <label for="customer-email"> Customer E-mail </label>
                                 <input class="form-control" type="text" id="customer-email" required="" placeholder="Enter Customer E-mail">
+                                <p class="error-validation"> Please enter valid email address. </p>
                             </div>
 
-                            <div class="form-group mb-3 text-center">
-                                <input type="file" class="dropify" data-height="80" />
+                            <div class="form-group mb-2 text-center">
+                                <input type="file" class="dropify" data-height="40" />
                             </div>
 
-                            <div class="form-group mb-3 text-center">
+                            <div class="form-group mb-2 text-center">
                                 <button class="btn btn-primary btn-block" type="submit"> Sign Up </button>
                             </div>
 
@@ -79,5 +80,6 @@
             <!-- end row -->
         </div>
         <!-- end page -->
+
 
 <?php include 'footer.php' ?>

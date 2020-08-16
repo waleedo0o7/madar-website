@@ -26,9 +26,43 @@ ul.reset-ul {
 }
 
 .form-control {
-    padding: 1.5rem .9rem;
+    padding: 1.1rem .9rem;
 }
 
+
+
+span.file-icon {
+    display: none !important;
+}
+
+.dropify-wrapper .dropify-message {
+    color: #2f5cbd;
+}
+
+
+label {
+    font-weight: 300;
+    color: #2f3541;
+}
+
+p.error-validation {
+    color: #de350b;
+    margin-top: 5px;
+}
+a {
+    color: #2f5cbd;
+    text-decoration: underline;
+}
+
+.alert.account-not-verified {
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    background: #ffab00;
+    color: #252a33;
+    font-size: 16px;
+    position: absolute;
+}
 
 /* account pages start */
 .account-pages{
@@ -36,10 +70,24 @@ ul.reset-ul {
 		background: url(../images/login-main-bg.png);
 		background-size: cover;
 		background-position: center;
+		.page-content {
+			max-width:350px;
+			margin-top: 40px;
+			width: 100%;
 
-		.logo{
-			width: 250px;
-			margin-bottom: 50px;
+			.logo{
+				width: 200px;
+				margin-bottom: 20px;
+			}
+
+			h3{
+				margin-bottom: 5px;
+			}
+
+			.otp{
+				margin-top: 150px;
+			}
+
 		}
 	}
 
@@ -49,8 +97,8 @@ ul.reset-ul {
 		background-position: center;
 
 		.page-welcome{
-			margin-top: 150px;
-			min-height: 80vh;
+			margin-top: 90px;
+			min-height: 85vh;
 			width: 90%;
 			display: flex;
 			flex-direction: column;
@@ -73,5 +121,16 @@ ul.reset-ul {
 		width: 100%;
 		max-width: 800px;
 		margin: 80px auto;
+	}
+
+	.page-content.account-not-verified-page{
+		margin-top: 100px;
+		text-align: center;
+
+		.logo {
+			width:160px;
+		    margin: auto;
+		    margin-bottom: 100px;
+		}
 	}
 }

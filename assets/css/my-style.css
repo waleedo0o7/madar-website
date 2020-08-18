@@ -138,7 +138,19 @@ a {
       position: absolute;
       right: 10px;
       top: 10px;
-      height: 95%; }
+      height: 95%;
+      max-width: 270px; }
+      .stepper-layout .company-info-content .map-content .add-locations-tap .full-data {
+        border: 1px solid #cfcfcf;
+        padding: 5px;
+        margin: 15px 0px;
+        border-radius: 5px; }
+        .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info {
+          margin-bottom: 10px; }
+          .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info p {
+            margin-bottom: 0; }
+          .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info label {
+            margin-bottom: 0; }
     .stepper-layout .company-info-content .map-content a.add-locations-btn {
       color: #2f5cbd;
       border: 2px dashed;

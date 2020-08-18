@@ -339,6 +339,26 @@
                                         <div class="add-locations-tap">
 
                                             <input type="text" id="simpleinput" placeholder="search..." class="form-control" >
+
+                                            <div class="full-data">
+
+                                                <h4> <i style="color: #fcab31;" class="far fa-star"></i> Warehous 1 </h4>
+
+                                                <div class="one-info">
+                                                    <label> City: </label>
+                                                    <p> Dammam </p>
+                                                </div> <!-- one-info -->
+                                                <div class="one-info">
+                                                    <label> Long & Lat: </label>
+                                                    <p> 26.4206828,50.0887943    </p>
+                                                </div> <!-- one-info -->
+                                                <div class="one-info">
+                                                    <label> Address:  </label>
+                                                    <p> 8033 Abdullah Ibn Nafi, As Sulimaniyah, Riyadh </p>
+                                                </div> <!-- one-info -->
+
+
+                                            </div>
                                             
                                             <a href="#" class="add-locations-btn btn  btn-block"> <i class="fas fa-plus-circle"></i> Add More Locations </a>
 

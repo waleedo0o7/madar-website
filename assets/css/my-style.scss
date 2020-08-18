@@ -199,6 +199,26 @@ a {
 				right: 10px;
 				top: 10px;
 				height: 95%;
+				max-width: 270px;
+
+				.full-data {
+				    border: 1px solid #cfcfcf;
+				    padding: 5px;
+				    margin: 15px 0px;
+				    border-radius: 5px;
+
+					.one-info{
+						margin-bottom: 10px;
+						p {
+						    margin-bottom: 0;
+						}
+						label {
+						    margin-bottom: 0;
+						}
+					}
+
+				}
+
 			}
 
 			a.add-locations-btn  {
@@ -209,6 +229,8 @@ a {
 		}
 	}
 }
+
+
 #add-location-popup{
 	.custom-modal-title {
 	    background-color: #fff;
@@ -225,7 +247,10 @@ a {
 	.custom-modal-text{
 		padding: 10px 20px;
 	}
+
 }
+
+
 
 .company-info-stepper-container {
 	background-color: #faf0ed;

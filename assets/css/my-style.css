@@ -39,7 +39,7 @@ p.error-validation {
 
 a {
   color: #2f5cbd;
-  text-decoration: underline; }
+  /*text-decoration: underline;*/ }
 
 .alert.account-not-verified {
   width: 100%;
@@ -49,6 +49,11 @@ a {
   color: #252a33;
   font-size: 16px;
   position: absolute; }
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  -webkit-box-shadow: unset;
+  box-shadow: unset; }
 
 /* account pages start */
 .account-pages .left {
@@ -89,7 +94,7 @@ a {
     font-size: 28px; }
 .account-pages .terms {
   width: 100%;
-  max-width: 800px;
+  max-width: 800px !important;
   margin: 80px auto; }
 .account-pages .page-content.account-not-verified-page {
   margin-top: 100px;
@@ -98,5 +103,71 @@ a {
     width: 160px;
     margin: auto;
     margin-bottom: 100px; }
+
+.stepper-layout .navbar-custom {
+  background-color: #ffffff;
+  position: relative; }
+.stepper-layout .logo-box {
+  background-color: unset; }
+  .stepper-layout .logo-box .logo-lg img {
+    width: 130px;
+    height: auto; }
+.stepper-layout .content-page {
+  margin-left: unset !important; }
+  .stepper-layout .content-page .steps-menu label {
+    font-weight: bold;
+    font-size: 14px;
+    display: flex; }
+  .stepper-layout .content-page .steps-menu span {
+    display: flex;
+    font-size: 12px; }
+.stepper-layout .company-info-content {
+  height: auto; }
+  .stepper-layout .company-info-content a.add-location {
+    color: #000;
+    display: inline-block;
+    font-size: 16px; }
+  .stepper-layout .company-info-content .map-content {
+    position: relative; }
+    .stepper-layout .company-info-content .map-content .add-locations-tap {
+      background-color: #fff;
+      -webkit-box-shadow: 0 0.75rem 1rem rgba(56, 65, 74, 0.1);
+      box-shadow: 0 0.75rem 1rem rgba(56, 65, 74, 0.1);
+      padding: 10px;
+      border-radius: 7px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      height: 95%; }
+    .stepper-layout .company-info-content .map-content a.add-locations-btn {
+      color: #2f5cbd;
+      border: 2px dashed;
+      margin-top: 20px; }
+
+#add-location-popup .custom-modal-title {
+  background-color: #fff;
+  color: #343a40;
+  font-size: 22px;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 20px; }
+#add-location-popup .close {
+  color: #373d42;
+  font-size: 28px; }
+#add-location-popup .custom-modal-text {
+  padding: 10px 20px; }
+
+.company-info-stepper-container {
+  background-color: #faf0ed;
+  border-radius: 50px;
+  overflow: hidden; }
+
+.company-info-stepper {
+  text-align: right;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: #ff8b00;
+  border-radius: 50px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=my-style.css.map */

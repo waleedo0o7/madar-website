@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Adminto - Responsive Admin Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- dropify -->
+        <link href="assets/libs/dropify/dropify.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Custom box css -->
+        <link href="assets/libs/custombox/custombox.min.css" rel="stylesheet">
+        
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/my-style.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/my-media.css" rel="stylesheet" type="text/css" />
+
+
+
+    </head>
+
+    <body class="">
+        <div class="account-pages vh-100">
+            <div class="row vh-100">
+                <div class="col-lg-6 d-flex align-items-start justify-content-center left vh-100">
+
+                    <div class="page-content ">
+
+                        <img class="img-fluid logo" src="assets/images/madar-logo.svg">
+                        <div class="otp">
+
+
+                            <h3> OTP Validation </h3>
+                            <p class="mb-3"> please enter the 4-digits one time password sent to 012457888 </p>
+                            <!--  -->
+
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-3">
+                                        <input class="form-control" type="text" id="digit1">
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <input class="form-control" type="text" id="digit2">
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <input class="form-control" type="text" id="digit3">
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <input class="form-control" type="text" id="digit4">
+                                    </div>
+                                </div>
+                                <p>Didn't recieve an OTP ? <a href="#"> Resend </a> </p>
+                                <div class="form-group mb-2 text-center">
+                                    <button class="btn btn-primary btn-block" type="submit"> Submit </button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div> <!-- page-content -->
+
+                </div> <!-- end col -->
+                <div class="col-lg-6 d-flex align-items-start justify-content-center right">
+
+                    <div class="page-welcome">
+
+                        <div class="top text-center">
+                            <h1 class="text-white"> Welcome to Madar! </h1>
+                            <p class="text-white"> We provide the best services for our clients 100% guaranteed trust and satisfaction </p>
+                        </div>
+
+                        <div class="bottom d-flex align-items-center justify-content-between">
+                            <p class="text-white m-0"> © Madar 2020 </p>
+                            <ul class="reset-ul d-flex align-items-start">
+                                <li> <a href="#"><i class="fab fa-facebook-f text-white"></i> </a> </li>
+                                <li> <a href="#"><i class="fab fa-linkedin-in text-white"></i> </a> </li>
+                                <li> <a href="#"><i class="fab fa-twitter text-white"></i> </a> </li>
+                            </ul>
+                        </div>
+
+                    </div> <!-- page-welcome -->
+                </div> <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end page -->
+
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- dropify js -->
+        <script src="assets/libs/dropify/dropify.min.js"></script>
+
+        <!-- form-upload init -->
+        <script src="assets/js/pages/form-fileupload.init.js"></script>
+
+        <!-- Modal-Effect -->
+        <script src="assets/libs/custombox/custombox.min.js"></script>
+        
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+
+        <script>
+
+            var count = $(('#count'));
+            $({ Counter: 0 }).animate({ Counter: count.text() }, {
+              duration: 5000,
+              easing: 'linear',
+              step: function () {
+                count.text(Math.ceil(this.Counter)+ "%");
+              }
+            });
+
+            var s = Snap('#animated');
+            var progress = s.select('#progress');
+
+            progress.attr({strokeDasharray: '0, 251.2'});
+            Snap.animate(0,251.2, function( value ) {
+                progress.attr({ 'stroke-dasharray':value+',251.2'});
+            }, 5000);
+
+        </script>
+        
+    </body>
+</html>

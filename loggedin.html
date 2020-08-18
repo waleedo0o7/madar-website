@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Adminto - Responsive Admin Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- dropify -->
+        <link href="assets/libs/dropify/dropify.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Custom box css -->
+        <link href="assets/libs/custombox/custombox.min.css" rel="stylesheet">
+        
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/my-style.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/my-media.css" rel="stylesheet" type="text/css" />
+
+
+
+    </head>
+
+    <body class="">
+        <div class="account-pages vh-100">
+            <div class="row vh-100">
+                <div class="col-lg-12 d-flex align-items-start justify-content-center left vh-100" style="background-image: url(assets/images/congrats-bg.png); background-position: bottom;">
+
+                          <div class="alert alert-warning alert-dismissible account-not-verified">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <img style="width: 25px; margin-top: -5px;" class="img-fluid" src="assets/images/save.svg"> Your account hasn’t been verified yet. please wait we will contact you soon.
+                          </div>
+
+                          <div class="page-content account-not-verified-page">
+                                <img class="img-fluid logo" src="assets/images/madar-logo.svg">
+                                <img class="img-fluid" src="assets/images/congrats.svg">
+                                <h3> Congratulations </h3>
+                                <p> Your Account has been Created successfully, please setup your company settings. </p>
+
+                                <div class="form-group mb-2 text-center">
+                                    <button class="btn btn-primary btn-block" type="submit"> Complete Your Company Setup </button>
+                                </div>
+                          </div>
+
+                </div> <!-- end col -->
+
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end page -->
+
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- dropify js -->
+        <script src="assets/libs/dropify/dropify.min.js"></script>
+
+        <!-- form-upload init -->
+        <script src="assets/js/pages/form-fileupload.init.js"></script>
+
+        <!-- Modal-Effect -->
+        <script src="assets/libs/custombox/custombox.min.js"></script>
+        
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+
+        <script>
+
+            var count = $(('#count'));
+            $({ Counter: 0 }).animate({ Counter: count.text() }, {
+              duration: 5000,
+              easing: 'linear',
+              step: function () {
+                count.text(Math.ceil(this.Counter)+ "%");
+              }
+            });
+
+            var s = Snap('#animated');
+            var progress = s.select('#progress');
+
+            progress.attr({strokeDasharray: '0, 251.2'});
+            Snap.animate(0,251.2, function( value ) {
+                progress.attr({ 'stroke-dasharray':value+',251.2'});
+            }, 5000);
+
+        </script>
+        
+    </body>
+</html>

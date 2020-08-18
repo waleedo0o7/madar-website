@@ -55,6 +55,23 @@ a {
   -webkit-box-shadow: unset;
   box-shadow: unset; }
 
+/*
+ *  STYLE 2
+ */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #607D8B; }
+
 /* account pages start */
 .account-pages .left {
   background: url(../images/login-main-bg.png);
@@ -139,17 +156,18 @@ a {
       right: 10px;
       top: 10px;
       height: 95%;
-      max-width: 270px; }
-      .stepper-layout .company-info-content .map-content .add-locations-tap .full-data {
+      max-width: 270px;
+      overflow-y: scroll; }
+      .stepper-layout .company-info-content .map-content .add-locations-tap .full-data, .stepper-layout .company-info-content .map-content .add-locations-tap .short-data {
         border: 1px solid #cfcfcf;
         padding: 5px;
         margin: 15px 0px;
         border-radius: 5px; }
-        .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info {
+        .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info, .stepper-layout .company-info-content .map-content .add-locations-tap .short-data .one-info {
           margin-bottom: 10px; }
-          .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info p {
+          .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info p, .stepper-layout .company-info-content .map-content .add-locations-tap .short-data .one-info p {
             margin-bottom: 0; }
-          .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info label {
+          .stepper-layout .company-info-content .map-content .add-locations-tap .full-data .one-info label, .stepper-layout .company-info-content .map-content .add-locations-tap .short-data .one-info label {
             margin-bottom: 0; }
     .stepper-layout .company-info-content .map-content a.add-locations-btn {
       color: #2f5cbd;

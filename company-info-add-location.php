@@ -359,6 +359,12 @@
 
 
                                             </div>
+
+
+                                            <div class="short-data">
+                                                <h4> Pepsico </h4>
+                                                <p> Supermarket・Dammam </p>
+                                            </div>
                                             
                                             <a href="#" class="add-locations-btn btn  btn-block"> <i class="fas fa-plus-circle"></i> Add More Locations </a>
 

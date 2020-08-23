@@ -168,6 +168,14 @@
             <!-- end Topbar -->
 
 
+
+            <div class="alert alert-warning alert-dismissible account-not-verified">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <img style="width: 25px; margin-top: -5px;" class="img-fluid" src="assets/images/save.svg"> Your account hasn’t been verified yet. please wait we will contact you soon.
+            </div>
+
+
+
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
@@ -181,84 +189,170 @@
 
                         <div class="row">
 
-                            <div class="col-md-3 col-xs-12">
-                                <div class="card-box stepper-box">
-                                    <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Skip </a>
-                                    <div class="stepper">
 
-                                        <svg id="animated" viewbox="-10 0 120 100">
+                            <div class="col-md-8 col-xs-12" style="margin: auto;">
 
-                                          <circle cx="50" cy="50" r="45" fill="#FFF"/>
 
-                                          <path id="" stroke-linecap="round" stroke-width="5" stroke="#eff3fb" fill="none"
-                                                d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80">
-                                          </path>
+                                <div class="card-box info-box company-info-content" style="min-height: unset;
+    height: auto;">
 
-                                          <path id="progress" stroke-linecap="round" stroke-width="5" stroke="#36b37e" fill="none"
-                                                d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80">
-                                          </path>
+                                    <div style="height: 100%;" class="d-flex flex-direction-column justify-content-between">
 
-                                          <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
+                                        <div class="recievers-bulk-upload">
 
-                                        </svg>
-                                    </div>
+                                            <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
+                                            <h4>  Bulk Upload Fleets  </h4>
 
-                                    <h4 class="text-center mb-4"> Company Setup </h4>
+                                            <div class="company-info-stepper-section">
+                                                    
+                                                <div class="company-info-stepper-container mb-2">
+                                                    <div class="company-info-stepper html" style="width: 100%"> </div>
+                                                </div>
 
-                                    <div class="steps-menu">
+                                                <div class="text-right" style="margin-bottom: -25px;">
+                                                    <a style="color:#888"> 2 / 2 </a>
+                                                </div>
+
+                                            </div>
+
+                                            <h5 class="mb-1"> 2. Directions </h5>
+
+                                            <div class="row">
+                                                <div class="col">
+
+
+
+                                                    <div class="info-box">
+                                                        <h5> Trip 1 direction </h5>
+
+                                                        <form>
+
+                                                                <div class="form-row">
+
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputEmail4" class="col-form-label"> Contract From </label>
+                                                                        <input type="text" class="form-control" id="" placeholder="Place">
+                                                                    </div> 
+
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputEmail4" class="col-form-label"> To </label>
+                                                                        <input type="text" class="form-control" id="" placeholder="Place">
+                                                                    </div>
+
+                                                                </div> <!-- form-row -->
+
+
+                                                                <div class="form-row">
+
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputEmail4" class="col-form-label"> Distance </label>
+                                                                        <div style="position: relative;">
+                                                                            <input type="text" class="form-control" id="" placeholder="Enter the distance here">
+                                                                            <span style=" position: absolute; top: 9px; right: 10px; color: #b7b7b7;"> KG </span>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <div class="form-group col-md-6"></div>
+
+                                                                </div> <!-- form-row -->
+
+
+                                                                <div class="form-row">
+
+                                                                    <div class="form-group col-md-12" style="margin: 0;">
+                                                                        <label for="inputEmail4" class="col-form-label"> Price </label>
+                                                                    </div>
+
+                                                                    <div class="form-group col-md-6">
+
+                                                                        <div class="custom-control custom-radio ">
+                                                                            <input type="radio" id="customRadio1" name="customRadio1" class="custom-control-input">
+                                                                            <label class="custom-control-label" for="customRadio1">Plans based on truck type </label>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <div class="form-group col-md-6">
+                                                                        <div class="custom-control custom-radio">
+                                                                            <input type="radio" id="customRadio2" name="customRadio1" class="custom-control-input">
+                                                                            <label class="custom-control-label" for="customRadio2"> Fixed Price </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+
+
+
+                                                                <div class="form-row">
+
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputEmail4" class="col-form-label"> Truck Type </label> 
+
+
+
+                                                                        <select class="form-control select2 select2-multiple" multiple="multiple" multiple data-placeholder="Choose ..."> 
+                                                                            <option value="AK">Tanker </option>
+                                                                            <option value="AK">Tanker 1</option>
+                                                                            <option value="AK">Tanker 2</option>
+                                                                        </select>
+
+
+
+                                                                    </div> 
+
+
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputEmail4" class="col-form-label"> Price </label>
+                                                                        <div style="position: relative;">
+                                                                            <input type="text" class="form-control" id="" placeholder="No.">
+                                                                            <span style=" position: absolute; top: 9px; right: 10px; color: #b7b7b7;"> SAR </span>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div> <!-- form-row -->
+
+
+                                                                <div class="form-group mb-2 text-center mt-3">
+                                                                    <input type="file" class="dropify" data-height="90" />
+                                                                </div>
+                                                                <a class="btn btn-plus" href="#"> <i class="fas fa-plus-circle"></i> Add Another Direction </a>
+
+
+                                                        </form>
+
+                                                    </div>
+
+
+
+
+                                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                                        <a class="btn btn-custom1" href="#"> Cancel </a>
+                                                        <a class="btn btn-primary" href="#"> Next </a>
+                                                    </div>
+
+
+                                                </div> <!-- col -->
+                                            </div> <!-- row -->
+
+
  
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input checked="checked" type="radio" id="customRadio1" name="customRadio1" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio1">Company Info</label>
-                                                <span> Company locations, brand colors and logo settings. </span>
-                                            </div>
+ 
 
 
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" id="customRadio2" name="customRadio2" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio2"> Recievers </label>
-                                                <span> Add receivers data for your shipments. </span>
-                                            </div>
-
-
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" id="customRadio3" name="customRadio3" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio3"> Packages </label>
-                                                <span> Add your company packages and sizes. </span>
-                                            </div>
-
-
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" id="customRadio4" name="customRadio4" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio4"> Contracted Fleets </label>
-                                                <span> Add all fleets you have contracted with. </span>
-                                            </div>
-
-
-                                            <div class="custom-control custom-radio">
-                                                <input type="radio" id="customRadio5" name="customRadio5" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio5"> Users </label>
-                                                <span> Add your partners with privileges for everyone. </span>
-                                            </div>
-                                    </div>
-                                </div> <!-- card-box -->
-                            </div> <!-- col-md-3 col-xs-12 -->
-
-                            <div class="col-md-9 col-xs-12">
-                                <div class="card-box info-box company-info-content">
-                                    <div class="recievers d-flex align-items-center justify-content-center flex-direction-column">
-                                        <img class="img-fluid" src="assets/images/truck.png">
-                                        <h4> Who is going to Deliver? </h4>
-                                        <p> Add all fleets you have contracted with to ship your orders to make the shipment order prepared. </p>
-                                        <div class=" btns d-flex align-items-center justify-content-center">
-                                            <a style="width: 300px;" class="btn btn-block btn-primary" href="#"> Add Contracted Fleet </a>
                                         </div>
+
+ 
+                                        </div>
+
                                     </div>
+
                                 </div> <!-- card-box -->
+
+
+
                             </div> <!-- col-md-3 col-xs-12 -->
 
                         </div> <!-- row -->

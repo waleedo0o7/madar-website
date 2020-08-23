@@ -15,6 +15,10 @@
         
         <!-- Custom box css -->
         <link href="assets/libs/custombox/custombox.min.css" rel="stylesheet">
+
+        <link href="assets/libs/multiselect/multi-select.css"  rel="stylesheet" type="text/css" />
+        
+        <link href="assets/libs/select2/select2.min.css" rel="stylesheet" type="text/css" />
         
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -22,8 +26,6 @@
         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/my-style.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/my-media.css" rel="stylesheet" type="text/css" />
-
-
 
     </head>
 

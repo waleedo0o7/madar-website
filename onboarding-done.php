@@ -251,11 +251,11 @@
                             <div class="col-md-9 col-xs-12">
                                 <div class="card-box info-box company-info-content">
                                     <div class="recievers d-flex align-items-center justify-content-center flex-direction-column">
-                                        <img class="img-fluid" src="assets/images/truck.png">
-                                        <h4> Who is going to Deliver? </h4>
-                                        <p> Add all fleets you have contracted with to ship your orders to make the shipment order prepared. </p>
+                                        <img class="img-fluid" src="assets/images/congrats.svg">
+                                        <h4> Congratulations  </h4>
+                                        <p> Your Account has been Created successfully </p>
                                         <div class=" btns d-flex align-items-center justify-content-center">
-                                            <a style="width: 300px;" class="btn btn-block btn-primary" href="#"> Add Contracted Fleet </a>
+                                            <a style="width: 300px;" class="btn btn-block btn-primary" href="#"> Go To Home </a>
                                         </div>
                                     </div>
                                 </div> <!-- card-box -->

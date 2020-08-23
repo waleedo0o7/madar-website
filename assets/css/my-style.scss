@@ -60,9 +60,9 @@ ul.reset-ul {
 
 
 
-span.file-icon {
+/*span.file-icon {
     display: none !important;
-}
+}*/
 
 .dropify-wrapper .dropify-message {
     color: #2f5cbd;
@@ -81,6 +81,11 @@ p.error-validation {
 a {
     color: #2f5cbd;
     /*text-decoration: underline;*/
+}
+
+
+form{
+	font-size: 14px;
 }
 
 .alert.account-not-verified {
@@ -143,6 +148,14 @@ a {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #607D8B;
+}
+
+table.table-condensed {
+    text-align: center !important;
+}
+
+.datepicker td, .datepicker th {
+    cursor: pointer;
 }
 
 
@@ -310,9 +323,11 @@ a {
 }
 
 
+
 .upload-logo{
 	max-width: 280px;
 }
+
 
 
 
@@ -379,6 +394,36 @@ a {
 
 
 
+
+.contracted-fleets {
+	.one-block {
+		border:1px solid #d4d9e1;
+		border-radius: 5px;
+		padding:10px;
+		label {
+			color: #555b66;
+			margin: 0;
+			font-size: 13px;
+		}
+
+		h4{
+			margin: 3px 0;
+		}
+
+		.img-container {
+		    background: #eff3fa;
+		    border-radius: 50%;
+		    img{
+				max-width: 25px;
+				margin: 10px;
+		    }
+		}
+
+	}
+}
+
+
+
 .table tbody tr:hover {
     background: #e6eeff;
 }
@@ -422,3 +467,68 @@ a {
 	border-radius: 50px;
 	overflow: hidden;
 }
+
+
+
+
+.profile-image .dropify-wrapper {
+    width: 90px;
+    height: 90px !important;
+    border-radius: 50%;
+
+	.dropify-message p {
+	    display: none;
+	}
+
+	.dropify-infos-inner {
+	    display: none !important;
+	}
+
+	button.dropify-clear {
+    	top: 25px !important;
+    	left: 13px !important;
+	}
+
+
+	.dropify-preview img {
+	    max-width: unset !important;
+	    max-height: 125px !important;
+	}
+
+
+	 span.file-icon {
+	    font-size: 40px;
+	    color: #CCC;
+	}
+
+
+}
+
+
+.access-channel{
+
+	.one-block {
+		border: 1px solid#2f5cbd;
+		border-radius: 5px;
+		padding: 20px;
+
+		p{
+			margin-bottom: 0px;
+			margin-top: 10px;
+		}
+
+		.input-div {
+		    position: absolute;
+		    top: 5px;
+		    right: 5px;
+		    margin: 0 !important;
+		}
+
+	}
+
+
+}
+
+
+
+

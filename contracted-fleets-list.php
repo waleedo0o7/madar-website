@@ -168,6 +168,14 @@
             <!-- end Topbar -->
 
 
+
+            <div class="alert alert-warning alert-dismissible account-not-verified">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <img style="width: 25px; margin-top: -5px;" class="img-fluid" src="assets/images/save.svg"> Your account hasn’t been verified yet. please wait we will contact you soon.
+            </div>
+
+
+
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
@@ -205,6 +213,8 @@
                                           <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
 
                                         </svg>
+
+
                                     </div>
 
                                     <h4 class="text-center mb-4"> Company Setup </h4>
@@ -244,20 +254,137 @@
                                                 <label class="custom-control-label" for="customRadio5"> Users </label>
                                                 <span> Add your partners with privileges for everyone. </span>
                                             </div>
+
                                     </div>
+
+
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 
                             <div class="col-md-9 col-xs-12">
+
+
                                 <div class="card-box info-box company-info-content">
-                                    <div class="recievers d-flex align-items-center justify-content-center flex-direction-column">
-                                        <img class="img-fluid" src="assets/images/truck.png">
-                                        <h4> Who is going to Deliver? </h4>
-                                        <p> Add all fleets you have contracted with to ship your orders to make the shipment order prepared. </p>
-                                        <div class=" btns d-flex align-items-center justify-content-center">
-                                            <a style="width: 300px;" class="btn btn-block btn-primary" href="#"> Add Contracted Fleet </a>
+
+                                    <div style="height: 100%;" class="recievers-list d-flex flex-direction-column justify-content-between">
+
+                                            <div>
+
+                                                <div class="d-flex align-items-center justify-content-between mb-1">
+
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h4>  <img style="width: 30px;" src="assets/images/file-text-outline.png"> Contracted Fleet </h4>
+     
+                                                    </div>
+
+                                                    <div class="actions">
+                                                        <a class="mb-3 modal-sm" href="#invite-fleet" data-animation="fadein" data-plugin="custommodal" data-overlayColor="#36404a">  <i class="fas fa-plus-circle"></i> Add New Contracted Fleet </a>
+                                                    </div>
+
+
+                                                    <!-- Modal -->
+                                                    <div id="invite-fleet" class="modal-sm modal-demo bs-example-modal-sm">
+                                                        <button type="button" class="close" onclick="Custombox.modal.close();">
+                                                            <span>&times;</span><span class="sr-only">Close</span>
+                                                        </button>
+                                                        <h4 class="custom-modal-title"> Invite Fleet </h4>
+                                                        <div class="custom-modal-text">
+
+                                                            <form>
+ 
+                                                                <div class="form-group mb-3">
+                                                                    <label for="inputEmail4" class="col-form-label"> Email Address </label>
+                                                                    <input type="text" class="form-control" id="" placeholder="Enter Email Adress">
+                                                                </div> 
+
+                                                            </form>
+
+                                                            <div class="d-flex align-items-center justify-content-between mt-1">
+                                                                <a style="color:#2f5cbd" class="btn btn-custom1" href="#"> Cancel </a>
+                                                                <a class="btn btn-primary" href="#"> Confirm </a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+
+                                                </div>
+ 
+
+
+                                                <div class="table-responsive">
+                                                    <table class="table mb-0">
+                                                        <thead class="thead-light">
+                                                        <tr>
+                                                            <th> Fleet Name </th>
+                                                            <th> No. Transactions </th>
+                                                            <th> Compliance </th>
+                                                            <th> Fulfilment </th>
+                                                            <th> Places Coverd </th>
+                                                            <th> Max Price  </th>
+                                                            <th> Actions  </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            
+                                                        <tr> 
+                                                            <td> Abayo Stevens </td>
+                                                            <td> 43456346 </td>
+                                                            <td> 99.45 % </td> 
+                                                            <td> 99.45 % </td> 
+                                                            <td> Mekka - Riydah </td> 
+                                                            <td> 1234 SAR </td> 
+
+                                                            <td>
+
+
+                                                                <div class="dropdown for-table notification-list" style="position: relative;">
+                                                                    
+                                                                    <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                                        <i class="mdi mdi-dots-vertical"></i>
+                                                                    </a>
+
+                                                                    <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+     
+                                                                        <!-- item-->
+                                                                        <a href="#" class="dropdown-item notify-item">
+                                                                            <span> Edit </span>
+                                                                        </a>
+
+                                                                        <!-- item-->
+                                                                        <a href="#" class="red dropdown-item notify-item">
+                                                                            <span> End Contract </span>
+                                                                        </a>
+     
+
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            
+
+                                                        </tr>
+
+                                                             
+
+ 
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                            </div>
+
+
+     
+                                            <div class="d-flex align-items-center justify-content-between mt-3">
+                                                <a class="btn btn-custom1" href="#"> Cancel </a>
+                                                <a class="btn btn-primary" href="#"> Next Step </a>
+                                            </div>
                                         </div>
+
                                     </div>
+
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 
@@ -275,8 +402,11 @@
             <!-- ============================================================== -->
 
 
-
         </div>
         <!-- END wrapper -->
+
+
+
+
 
 <?php include 'footer.php' ?>

@@ -168,6 +168,13 @@
             <!-- end Topbar -->
 
 
+
+            <div class="alert alert-warning alert-dismissible account-not-verified">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <img style="width: 25px; margin-top: -5px;" class="img-fluid" src="assets/images/save.svg"> Your account hasn’t been verified yet. please wait we will contact you soon.
+            </div>
+
+
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
@@ -205,6 +212,8 @@
                                           <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
 
                                         </svg>
+
+
                                     </div>
 
                                     <h4 class="text-center mb-4"> Company Setup </h4>
@@ -244,20 +253,211 @@
                                                 <label class="custom-control-label" for="customRadio5"> Users </label>
                                                 <span> Add your partners with privileges for everyone. </span>
                                             </div>
+
                                     </div>
+
+
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 
+
                             <div class="col-md-9 col-xs-12">
-                                <div class="card-box info-box company-info-content">
-                                    <div class="recievers d-flex align-items-center justify-content-center flex-direction-column">
-                                        <img class="img-fluid" src="assets/images/truck.png">
-                                        <h4> Who is going to Deliver? </h4>
-                                        <p> Add all fleets you have contracted with to ship your orders to make the shipment order prepared. </p>
-                                        <div class=" btns d-flex align-items-center justify-content-center">
-                                            <a style="width: 300px;" class="btn btn-block btn-primary" href="#"> Add Contracted Fleet </a>
+                                <div class="card-box info-box company-info-content users" style="min-height: unset; height: auto;">
+
+                                    <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
+                                    <h4 class="mb-3"> Add New User </h4>
+
+                                        <form>
+
+                                                <div class="profile-image form-group mb-2 ">
+                                                    <div class="d-flex align-items-center justify-content-start col-md-6">    
+                                                        <div class="mr-2">
+                                                            <input type="file" class="dropify" data-height="40" />
+                                                        </div>
+
+                                                        <div>
+                                                            <label style="display: block;"> Profile Picture </label>
+                                                            <a class="btn btn-plus" href="#"> <i class="fas fa-plus-circle"></i> Add Profile Picture </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-row">
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label"> Name </label>
+                                                        <input type="text" class="form-control" id="" placeholder="Enter Location Name">
+                                                    </div> 
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label"> Mobile Number </label>
+                                                        <input type="text" class="form-control" id="" placeholder="Enter Location Name">
+                                                    </div> 
+
+
+
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label"> Email </label>
+                                                        <input type="email" class="form-control" id="" placeholder="Enter Location Name">
+                                                    </div> 
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label"> Country </label>
+
+
+                                                        <select class="form-control select2">
+                                                            <option>Select Country</option>
+                                                            <option value="CT">Connecticut</option>
+                                                            <option value="DE">Delaware</option>
+                                                            <option value="FL">Florida</option>
+                                                            <option value="GA">Georgia</option>
+                                                            <option value="IN">Indiana</option>
+                                                            <option value="ME">Maine</option>
+                                                            <option value="MD">Maryland</option>
+                                                            <option value="MA">Massachusetts</option>
+                                                            <option value="MI">Michigan</option>
+                                                            <option value="NH">New Hampshire</option>
+                                                            <option value="NJ">New Jersey</option>
+                                                            <option value="NY">New York</option>
+                                                            <option value="NC">North Carolina</option>
+                                                            <option value="OH">Ohio</option>
+                                                            <option value="PA">Pennsylvania</option>
+                                                            <option value="RI">Rhode Island</option>
+                                                            <option value="SC">South Carolina</option>
+                                                            <option value="VT">Vermont</option>
+                                                            <option value="VA">Virginia</option>
+                                                            <option value="WV">West Virginia</option> 
+                                                        </select>
+
+                                                    </div> 
+
+
+
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label"> Iqama Number</label>
+                                                        <input type="text" class="form-control" id="" placeholder="Enter Location Name">
+                                                    </div> 
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label"> Date of Birth </label>
+
+
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="mm/dd/yyyy" id="datepicker-autoclose">
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text"><i class="ti-calendar"></i></span>
+                                                                </div>
+                                                            </div><!-- input-group -->
+
+
+                                                    </div> 
+
+
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4" class="col-form-label">Privilage</label>
+
+                                                        <select class="form-control select2">
+                                                            <option>Select Privilage</option>
+                                                            <option value="CT">Connecticut</option>
+                                                            <option value="DE">Delaware</option>
+                                                            <option value="FL">Florida</option>
+                                                            <option value="GA">Georgia</option>
+                                                            <option value="IN">Indiana</option>
+                                                            <option value="ME">Maine</option>
+                                                            <option value="MD">Maryland</option>
+                                                            <option value="MA">Massachusetts</option>
+                                                            <option value="MI">Michigan</option>
+                                                            <option value="NH">New Hampshire</option>
+                                                            <option value="NJ">New Jersey</option>
+                                                            <option value="NY">New York</option>
+                                                            <option value="NC">North Carolina</option>
+                                                            <option value="OH">Ohio</option>
+                                                            <option value="PA">Pennsylvania</option>
+                                                            <option value="RI">Rhode Island</option>
+                                                            <option value="SC">South Carolina</option>
+                                                            <option value="VT">Vermont</option>
+                                                            <option value="VA">Virginia</option>
+                                                            <option value="WV">West Virginia</option> 
+                                                        </select>
+                                                    </div> 
+                                                </div> <!-- form-row -->
+
+
+                                                <div class="form-row access-channel">
+                                                    <div class="col-md-12">
+                                                        <label for="inputEmail4" class="col-form-label"> Access Channel </label>
+                                                    </div>
+
+                                                    
+                                                    <div class="form-group col-md-4">
+                                                        <div class="one-block" style="background: #dfeafe;">
+
+                                                            <div class="input-div custom-control custom-radio mb-3">
+                                                                <input type="radio" id="customRadio01" name="customRadio66" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio01"></label>
+                                                            </div>
+
+                                                            <div class="text-center">
+                                                                <img style="max-height: 70px;" class="img-fluid" src="assets/images/mobile-icon.png">
+                                                                <p> Mobile App </p>
+                                                            </div>
+
+
+                                                        </div> <!-- one-block -->
+                                                    </div> <!-- form-group -->
+
+                                                    
+                                                    <div class="form-group col-md-4">
+                                                        <div class="one-block">
+
+                                                            <div class="input-div custom-control custom-radio mb-3">
+                                                                <input  type="radio" id="customRadio02" name="customRadio66" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio02"></label>
+                                                            </div>
+
+                                                            <div class="text-center">
+                                                                <img style="max-height: 70px;" class="img-fluid" src="assets/images/computer.png">
+                                                                <p> Website </p>
+                                                            </div>
+
+
+                                                        </div> <!-- one-block -->
+                                                    </div> <!-- form-group -->
+
+                                                    
+                                                    <div class="form-group col-md-4">
+                                                        <div class="one-block">
+
+                                                            <div class="input-div custom-control custom-radio mb-3">
+                                                                <input  type="radio" id="customRadio03" name="customRadio66" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio03"></label>
+                                                            </div>
+
+                                                            <div class="text-center">
+                                                                <img style="max-height: 70px;" class="img-fluid" src="assets/images/both.png">
+                                                                <p> Both Channels </p>
+                                                            </div>
+
+
+                                                        </div> <!-- one-block -->
+                                                    </div> <!-- form-group -->
+
+
+
+
+                                                </div> <!-- form-row access-channel -->
+
+                                        </form>
+
+
+                                        <div class="d-flex align-items-center justify-content-between mt-3">
+                                            <a class="btn btn-custom1" href="#"> Cancel </a>
+                                            <a class="btn btn-primary" href="#"> Next </a>
                                         </div>
-                                    </div>
+
+
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 

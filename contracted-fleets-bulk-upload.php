@@ -168,6 +168,14 @@
             <!-- end Topbar -->
 
 
+
+            <div class="alert alert-warning alert-dismissible account-not-verified">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <img style="width: 25px; margin-top: -5px;" class="img-fluid" src="assets/images/save.svg"> Your account hasn’t been verified yet. please wait we will contact you soon.
+            </div>
+
+
+
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
@@ -181,84 +189,71 @@
 
                         <div class="row">
 
-                            <div class="col-md-3 col-xs-12">
-                                <div class="card-box stepper-box">
-                                    <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Skip </a>
-                                    <div class="stepper">
 
-                                        <svg id="animated" viewbox="-10 0 120 100">
-
-                                          <circle cx="50" cy="50" r="45" fill="#FFF"/>
-
-                                          <path id="" stroke-linecap="round" stroke-width="5" stroke="#eff3fb" fill="none"
-                                                d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80">
-                                          </path>
-
-                                          <path id="progress" stroke-linecap="round" stroke-width="5" stroke="#36b37e" fill="none"
-                                                d="M50 10
-                                                   a 40 40 0 0 1 0 80
-                                                   a 40 40 0 0 1 0 -80">
-                                          </path>
-
-                                          <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
-
-                                        </svg>
-                                    </div>
-
-                                    <h4 class="text-center mb-4"> Company Setup </h4>
-
-                                    <div class="steps-menu">
- 
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input checked="checked" type="radio" id="customRadio1" name="customRadio1" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio1">Company Info</label>
-                                                <span> Company locations, brand colors and logo settings. </span>
-                                            </div>
+                            <div class="col-md-8 col-xs-12" style="margin: auto;">
 
 
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" id="customRadio2" name="customRadio2" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio2"> Recievers </label>
-                                                <span> Add receivers data for your shipments. </span>
-                                            </div>
-
-
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" id="customRadio3" name="customRadio3" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio3"> Packages </label>
-                                                <span> Add your company packages and sizes. </span>
-                                            </div>
-
-
-                                            <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" id="customRadio4" name="customRadio4" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio4"> Contracted Fleets </label>
-                                                <span> Add all fleets you have contracted with. </span>
-                                            </div>
-
-
-                                            <div class="custom-control custom-radio">
-                                                <input type="radio" id="customRadio5" name="customRadio5" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio5"> Users </label>
-                                                <span> Add your partners with privileges for everyone. </span>
-                                            </div>
-                                    </div>
-                                </div> <!-- card-box -->
-                            </div> <!-- col-md-3 col-xs-12 -->
-
-                            <div class="col-md-9 col-xs-12">
                                 <div class="card-box info-box company-info-content">
-                                    <div class="recievers d-flex align-items-center justify-content-center flex-direction-column">
-                                        <img class="img-fluid" src="assets/images/truck.png">
-                                        <h4> Who is going to Deliver? </h4>
-                                        <p> Add all fleets you have contracted with to ship your orders to make the shipment order prepared. </p>
-                                        <div class=" btns d-flex align-items-center justify-content-center">
-                                            <a style="width: 300px;" class="btn btn-block btn-primary" href="#"> Add Contracted Fleet </a>
+
+                                    <div style="height: 100%;" class="d-flex flex-direction-column justify-content-between">
+
+                                        <div class="recievers-bulk-upload">
+
+                                            <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
+                                            <h4>  Bulk Upload Fleets  </h4>
+
+                                            <div class="company-info-stepper-section">
+                                                    
+                                                <div class="company-info-stepper-container mb-2">
+                                                    <div class="company-info-stepper html" style="width: 50%"> </div>
+                                                </div>
+
+                                                <div class="text-right" style="margin-bottom: -25px;">
+                                                    <a style="color:#888"> 1 / 2 </a>
+                                                </div>
+
+                                            </div>
+
+                                            <h5 class="mb-4"> 1. Upload File </h5>
+
+                                            <div class="info-box one-step mb-4">
+                                                <h5>  Step 1 :</h5>
+
+                                                <a href="#"> <i class="fa fa-download mr-1" aria-hidden="true"></i>Download Sample File </a>
+
+                                            </div>
+
+
+
+
+
+                                            <div class="info-box one-step mb-4">
+                                                <h5>  Step 2 :</h5>
+
+                                                <div class="form-group mb-2 text-center">
+                                                    <input type="file" class="dropify" data-height="100"/>
+                                                </div>
+
+                                            </div>
+
+
+
                                         </div>
+
+
+     
+                                            <div class="d-flex align-items-center justify-content-between mt-3">
+                                                <a class="btn btn-custom1" href="#"> Cancel </a>
+                                                <a class="btn btn-primary" href="#"> Next </a>
+                                            </div>
+                                        </div>
+
                                     </div>
+
                                 </div> <!-- card-box -->
+
+
+
                             </div> <!-- col-md-3 col-xs-12 -->
 
                         </div> <!-- row -->

@@ -175,6 +175,7 @@
             </div>
 
 
+
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
@@ -260,128 +261,114 @@
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 
-
                             <div class="col-md-9 col-xs-12">
+
+
                                 <div class="card-box info-box company-info-content">
 
-                                    <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
-                                    <h4> Company Info </h4>
+                                    <div style="height: 100%;" class="recievers-list d-flex flex-direction-column justify-content-between">
+
+                                            <div>
+                                                    <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
+
+                                                <div class="d-flex align-items-center justify-content-between mb-1">
+
+                                                    <h4> Add New Contracted Fleet </h4>
+                                                    <div class="actions">
+                                                        <a class="mb-3 modal-sm" href="#invite-fleet" data-animation="fadein" data-plugin="custommodal" data-overlayColor="#36404a">  <i class="fas fa-envelope"></i> Invite Fleet </a>
+                                                    </div>
 
 
-                                    <div class="company-info-stepper-section">
-                                            
-                                        <div class="company-info-stepper-container mb-2">
-                                            <div class="company-info-stepper html" style="width: 50%"> </div>
-                                        </div>
+                                                    <!-- Modal -->
+                                                    <div id="invite-fleet" class="modal-sm modal-demo bs-example-modal-sm">
+                                                        <button type="button" class="close" onclick="Custombox.modal.close();">
+                                                            <span>&times;</span><span class="sr-only">Close</span>
+                                                        </button>
+                                                        <h4 class="custom-modal-title"> Invite Fleet </h4>
+                                                        <div class="custom-modal-text">
 
-                                        <div class="text-right" style="margin-bottom: -25px;">
-                                            <a style="color:#888"> 1 / 2 </a>
-                                        </div>
+                                                            <form>
+ 
+                                                                <div class="form-group mb-3">
+                                                                    <label for="inputEmail4" class="col-form-label"> Email Address </label>
+                                                                    <input type="text" class="form-control" id="" placeholder="Enter Email Adress">
+                                                                </div> 
 
-                                    </div>
+                                                            </form>
 
-                                    <div class="d-flex justify-content-between">
-                                        <a class="add-location mb-3" href="#add-location-popup" data-animation="fadein" data-plugin="custommodal" data-overlayColor="#36404a">  <i class="fas fa-map-marker-alt"></i> Add Locations </a>
+                                                            <div class="d-flex align-items-center justify-content-between mt-1">
+                                                                <a style="color:#2f5cbd" class="btn btn-custom1" href="#"> Cancel </a>
+                                                                <a class="btn btn-primary" href="#"> Confirm </a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
 
 
-                                        <!-- Modal -->
-                                        <div id="add-location-popup" class="modal-demo">
-                                            <button type="button" class="close" onclick="Custombox.modal.close();">
-                                                <span>&times;</span><span class="sr-only">Close</span>
-                                            </button>
-                                            <h4 class="custom-modal-title"> Add New Location </h4>
-                                            <div class="custom-modal-text">
+
+                                                </div>
+
 
                                                 <form>
 
                                                     <div class="form-row">
                                                         <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Location Name </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Location Name">
+                                                            <input type="text" class="form-control" id="" placeholder="Search ...">
                                                         </div>
                                                     </div>
-
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> City </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter City Name">
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Address </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Address ">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Latitude </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Latitude">
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Longitude </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Longitude">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="mew-location-map">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1597709893741!5m2!1sen!2seg" width="100%" height="245" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                                    </div>
-
                                                 </form>
 
-                                                <div class="d-flex align-items-center justify-content-between mt-1">
-                                                    <a style="color:#2f5cbd" class="btn" href="#">  </a>
-                                                    <a class="btn btn-primary" href="#"> Confirm </a>
+
+                                                <div class="table-responsive">
+                                                    <table class="table mb-0">
+                                                        <thead class="thead-light">
+                                                        <tr>
+                                                            <th> Fleet Name </th>
+                                                            <th> Shipments </th>
+                                                            <th> Drivers </th>
+                                                            <th> Track Types </th>
+                                                            <th> Places Coverd </th>
+                                                            <th> Range amount  </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            
+                                                        <tr> 
+                                                            <td> Azar Hosseini </td>
+                                                            <td> 43456346 </td>
+                                                            <td> 433 </td> 
+                                                            <td> <span class="badge badge-custom"> Truck </span> <span class="badge badge-custom"> +3 </span> </td> 
+                                                            <td> Mekka - Riydah </td> 
+                                                            <td> 1234 SAR </td> 
+
+                                                        </tr>
+
+                                                            
+                                                        <tr> 
+                                                            <td> Azar Hosseini </td>
+                                                            <td> 43456346 </td>
+                                                            <td> 433 </td> 
+                                                            <td> <span class="badge badge-custom"> Truck </span> <span class="badge badge-custom"> +3 </span> </td> 
+                                                            <td> Mekka - Riydah </td> 
+                                                            <td> 1234 SAR </td> 
+                                                        </tr>
+
+ 
+                                                        </tbody>
+                                                    </table>
                                                 </div>
 
                                             </div>
+
+
+     
+                                            <div class="d-flex align-items-center justify-content-between mt-3">
+                                                <a class="btn btn-custom1" href="#"> Cancel </a>
+                                                <a class="btn btn-primary" href="#"> Next </a>
+                                            </div>
                                         </div>
 
-
-
-                                    </div>
-
-                                    <div class="map-content">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1597709893741!5m2!1sen!2seg" width="100%" height="445" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                        <div class="add-locations-tap">
-
-                                            <input type="text" id="simpleinput" placeholder="search..." class="form-control" >
-
-                                            <div class="full-data">
-
-                                                <h4> <i style="color: #fcab31;" class="far fa-star"></i> Warehous 1 </h4>
-
-                                                <div class="one-info">
-                                                    <label> City: </label>
-                                                    <p> Dammam </p>
-                                                </div> <!-- one-info -->
-                                                <div class="one-info">
-                                                    <label> Long & Lat: </label>
-                                                    <p> 26.4206828,50.0887943    </p>
-                                                </div> <!-- one-info -->
-                                                <div class="one-info">
-                                                    <label> Address:  </label>
-                                                    <p> 8033 Abdullah Ibn Nafi, As Sulimaniyah, Riyadh </p>
-                                                </div> <!-- one-info -->
-
-
-                                            </div>
-
-
-                                            <div class="short-data">
-                                                <h4> Pepsico </h4>
-                                                <p> Supermarket・Dammam </p>
-                                            </div>
-                                            
-                                            <a href="#" class="add-locations-btn btn  btn-block"> <i class="fas fa-plus-circle"></i> Add More Locations </a>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center justify-content-between mt-3">
-                                        <a style="color:#2f5cbd" class="btn" href="#"> Skip </a>
-                                        <a class="btn btn-primary" href="#"> Next </a>
                                     </div>
 
                                 </div> <!-- card-box -->
@@ -401,8 +388,11 @@
             <!-- ============================================================== -->
 
 
-
         </div>
         <!-- END wrapper -->
+
+
+
+
 
 <?php include 'footer.php' ?>

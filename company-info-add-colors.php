@@ -267,117 +267,94 @@
                                     <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
                                     <h4> Company Info </h4>
 
-
-                                    <div class="company-info-stepper-section">
-                                            
-                                        <div class="company-info-stepper-container mb-2">
-                                            <div class="company-info-stepper html" style="width: 50%"> </div>
-                                        </div>
-
-                                        <div class="text-right" style="margin-bottom: -25px;">
-                                            <a style="color:#888"> 1 / 2 </a>
-                                        </div>
-
+                                    <div class="company-info-stepper-container mb-2">
+                                        <div class="company-info-stepper html" style="width: 100%"> </div>
                                     </div>
 
                                     <div class="d-flex justify-content-between">
-                                        <a class="add-location mb-3" href="#add-location-popup" data-animation="fadein" data-plugin="custommodal" data-overlayColor="#36404a">  <i class="fas fa-map-marker-alt"></i> Add Locations </a>
+                                        <a class="add-location mb-3" href="#"> <i class="fas fa-palette"></i> Logo & Colors </a>
+                                        <a style="color:#888"> 2 / 2</a>
 
+                                    </div>
 
-                                        <!-- Modal -->
-                                        <div id="add-location-popup" class="modal-demo">
-                                            <button type="button" class="close" onclick="Custombox.modal.close();">
-                                                <span>&times;</span><span class="sr-only">Close</span>
-                                            </button>
-                                            <h4 class="custom-modal-title"> Add New Location </h4>
-                                            <div class="custom-modal-text">
+                                    <div class="colors-content">
 
-                                                <form>
+                                        <div class="row">
 
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Location Name </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Location Name">
+                                            <div class="col-md-6 col-xs-12">
+
+                                                <div class="upload-logo mb-5">
+                                                    <h4> Upload your Logo </h4>
+                                                    <div class="form-group mb-2 text-center">
+                                                        <input type="file" class="dropify" data-height="40" />
+                                                    </div>
+                                                </div> <!-- upload-logo -->
+
+                                                <div class="choose-color">
+                                                    <h4> Choose a Color Theme </h4>
+                                                    <p> Select a theme that fits well with your brand to help you  feel more at home. </p>
+
+                                                    <div class="all-colors d-flex align-items-center">
+
+                                                        <div class="one-color main-color" style="background-color: #01579b"></div>
+
+                                                        <div class="child-colors d-flex align-items-center">
+
+                                                            <div class="one-color" style="background-color: #689f38"></div>
+                                                            <div class="one-color" style="background-color: #43a047"></div>
+                                                            <div class="one-color" style="background-color: #009688"></div>
+                                                            <div class="one-color" style="background-color: #0288d1"></div>
+                                                            <div class="one-color" style="background-color: #3f51b5"></div>
+                                                            <div class="one-color" style="background-color: #673ab7"></div>
+                                                            <div class="one-color" style="background-color: #ab47bc"></div>
+                                                            <div class="one-color" style="background-color: #ff1744"></div>
+                                                            <div class="one-color" style="background-color: #e65100"></div>
+
+                                                            <div class="one-color" style="background-color: #558b2f"></div>
+                                                            <div class="one-color" style="background-color: #388e3c"></div>
+                                                            <div class="one-color" style="background-color: #00796b"></div>
+                                                            <div class="one-color" style="background-color: #0277bd"></div>
+                                                            <div class="one-color" style="background-color: #303f9f"></div>
+                                                            <div class="one-color" style="background-color: #512da8"></div>
+                                                            <div class="one-color" style="background-color: #8e24aa"></div>
+                                                            <div class="one-color" style="background-color: #d32f2f"></div>
+                                                            <div class="one-color" style="background-color: #6d4c41"></div>
+
+                                                            <div class="one-color" style="background-color: #33691e"></div>
+                                                            <div class="one-color" style="background-color: #1b5e20"></div>
+                                                            <div class="one-color" style="background-color: #004d40"></div>
+                                                            <div class="one-color" style="background-color: #01579b"></div>
+                                                            <div class="one-color" style="background-color: #1a237e"></div>
+                                                            <div class="one-color" style="background-color: #311b92"></div>
+                                                            <div class="one-color" style="background-color: #6a1b9a"></div>
+                                                            <div class="one-color" style="background-color: #b71c1c"></div>
+                                                            <div class="one-color" style="background-color: #f57f17"></div>
                                                         </div>
+
                                                     </div>
 
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> City </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter City Name">
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Address </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Address ">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Latitude </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Latitude">
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Longitude </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Longitude">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="mew-location-map">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1597709893741!5m2!1sen!2seg" width="100%" height="245" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                                    </div>
-
-                                                </form>
-
-                                                <div class="d-flex align-items-center justify-content-between mt-1">
-                                                    <a style="color:#2f5cbd" class="btn" href="#">  </a>
-                                                    <a class="btn btn-primary" href="#"> Confirm </a>
                                                 </div>
 
-                                            </div>
-                                        </div>
+                                            </div> <!-- col-md-6 -->
+
+                                            <div class="col-md-6 col-xs-12">
+
+                                                <div class="tips">
+                                                    <p> <i class="fas fa-info-circle"></i> Tips to make sure your logo looks great </p>
+                                                    <img style="max-height: 160px; margin: auto; display: block;" class="img-fluid mb-3" src="assets/images/tips.png">
+
+                                                    <p class="mb-3"> Make sure your logo has a transparent background.</p>
+
+                                                    <p class="mb-3"> Avoid using a white (reversed out) version of your logo. </p>
+
+                                                    <p class="mb-3"> A horizontal version of your logo is preferable if available. </p>
+
+                                                </div> <!-- tips -->
+                                            </div> <!-- col-md-6 -->
+                                        </div> <!-- row -->
 
 
-
-                                    </div>
-
-                                    <div class="map-content">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1597709893741!5m2!1sen!2seg" width="100%" height="445" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                        <div class="add-locations-tap">
-
-                                            <input type="text" id="simpleinput" placeholder="search..." class="form-control" >
-
-                                            <div class="full-data">
-
-                                                <h4> <i style="color: #fcab31;" class="far fa-star"></i> Warehous 1 </h4>
-
-                                                <div class="one-info">
-                                                    <label> City: </label>
-                                                    <p> Dammam </p>
-                                                </div> <!-- one-info -->
-                                                <div class="one-info">
-                                                    <label> Long & Lat: </label>
-                                                    <p> 26.4206828,50.0887943    </p>
-                                                </div> <!-- one-info -->
-                                                <div class="one-info">
-                                                    <label> Address:  </label>
-                                                    <p> 8033 Abdullah Ibn Nafi, As Sulimaniyah, Riyadh </p>
-                                                </div> <!-- one-info -->
-
-
-                                            </div>
-
-
-                                            <div class="short-data">
-                                                <h4> Pepsico </h4>
-                                                <p> Supermarket・Dammam </p>
-                                            </div>
-                                            
-                                            <a href="#" class="add-locations-btn btn  btn-block"> <i class="fas fa-plus-circle"></i> Add More Locations </a>
-
-                                        </div>
-                                    </div>
+                                    </div> <!-- colors-content -->
 
                                     <div class="d-flex align-items-center justify-content-between mt-3">
                                         <a style="color:#2f5cbd" class="btn" href="#"> Skip </a>

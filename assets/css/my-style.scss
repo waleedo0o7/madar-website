@@ -19,6 +19,35 @@ body{
     border-color: #f24729;
 }
 
+
+.btn-custom1 {
+    background-color: #e6eeff;
+    border-color: #e6eeff;
+    color: #2f5cbd;
+}
+
+.btn-custom1:hover {
+    color: #fff;
+    background-color: #f24729;
+    border-color: #f24729;
+}
+
+
+.btn-plus {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #2f5cbd;
+    padding: 0;
+}
+
+.btn-plus:hover {
+    color: #f24729;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+
 ul.reset-ul {
     list-style: none;
     padding: 0;
@@ -72,8 +101,26 @@ a {
 }
 
 
+.flex-direction-row {
+	flex-direction: row;
+
+}
 
 
+.flex-direction-column {
+	flex-direction: column;
+}
+
+
+.red{
+	color:#f00 !important;
+}
+
+.badge-custom {
+    color: #2f5cbd;
+    background-color: #e6eeff;
+    font-weight: normal;
+}
 /*
  *  STYLE 2
  */
@@ -207,11 +254,14 @@ a {
 
 	.company-info-content{
 	    height: auto;
+	    min-height: 687px;
+	    height: 687px;
 
 		a.add-location {
 		    color: #000;
 		    display: inline-block;
 		    font-size: 16px;
+		    margin: 5px 0;
 		}
 
 		.map-content{
@@ -227,7 +277,7 @@ a {
 				top: 10px;
 				height: 95%;
 				max-width: 270px;
-				overflow-y: scroll;
+				overflow-y: auto;
 
 				.full-data , .short-data {
 				    border: 1px solid #cfcfcf;
@@ -236,17 +286,18 @@ a {
 				    border-radius: 5px;
 
 					.one-info  {
-						margin-bottom: 10px;
+						margin-bottom: 3px;
 						p {
 						    margin-bottom: 0;
 						}
 						label {
 						    margin-bottom: 0;
+							color: #b0b0b0;
+							font-size: 11px;
 						}
 					}
 
 				}
-
 			}
 
 			a.add-locations-btn  {
@@ -259,7 +310,55 @@ a {
 }
 
 
-#add-location-popup{
+.upload-logo{
+	max-width: 280px;
+}
+
+
+
+.colors-content{
+	.all-colors{
+	    width: 350px;
+
+		.child-colors{
+			flex-wrap: wrap;
+			width: 260px;
+			.one-color {
+				height: 24px;
+				width: 24px;
+				background: #ebeff2;
+				border-radius: 3px;
+				margin: 2px;
+			}
+		}
+
+		.one-color.main-color {
+			width: 90px;
+			height: 80px;
+			background: #ebeff2;
+			margin-right: 10px;
+			border-radius: 3px;
+		}
+
+	}
+
+
+	.tips {
+	    padding: 20px;
+	    background: #f6f6f8;
+	    border-radius: 3px;
+	}
+
+	.choose-color{
+		p{
+			padding-right: 25px;
+		}
+	}
+}
+
+
+
+.modal-demo{
 	.custom-modal-title {
 	    background-color: #fff;
 	    color: #343a40;
@@ -278,6 +377,34 @@ a {
 
 }
 
+
+
+.table tbody tr:hover {
+    background: #e6eeff;
+}
+
+
+.recievers {
+	height: 100%;
+	img{
+		max-width: 460px
+	}
+
+	p{
+	    max-width: 350px;
+	    text-align: center;
+	}
+
+	.btns{
+		a{
+			margin:0 5px;
+		}
+	}
+}
+
+.table-responsive {
+    overflow: visible;
+}
 
 
 .company-info-stepper-container {

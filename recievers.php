@@ -168,13 +168,6 @@
             <!-- end Topbar -->
 
 
-
-            <div class="alert alert-warning alert-dismissible account-not-verified">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <img style="width: 25px; margin-top: -5px;" class="img-fluid" src="assets/images/save.svg"> Your account hasn’t been verified yet. please wait we will contact you soon.
-            </div>
-
-
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
@@ -212,8 +205,6 @@
                                           <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
 
                                         </svg>
-
-
                                     </div>
 
                                     <h4 class="text-center mb-4"> Company Setup </h4>
@@ -253,137 +244,21 @@
                                                 <label class="custom-control-label" for="customRadio5"> Users </label>
                                                 <span> Add your partners with privileges for everyone. </span>
                                             </div>
-
                                     </div>
-
-
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 
-
                             <div class="col-md-9 col-xs-12">
                                 <div class="card-box info-box company-info-content">
-
-                                    <a href="#" class="mb-3" style="color: #000"> <i class="fa fa-chevron-left"></i> Back </a>
-                                    <h4> Company Info </h4>
-
-
-                                    <div class="company-info-stepper-section">
-                                            
-                                        <div class="company-info-stepper-container mb-2">
-                                            <div class="company-info-stepper html" style="width: 50%"> </div>
-                                        </div>
-
-                                        <div class="text-right" style="margin-bottom: -25px;">
-                                            <a style="color:#888"> 1 / 2 </a>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="d-flex justify-content-between">
-                                        <a class="add-location mb-3" href="#add-location-popup" data-animation="fadein" data-plugin="custommodal" data-overlayColor="#36404a">  <i class="fas fa-map-marker-alt"></i> Add Locations </a>
-
-
-                                        <!-- Modal -->
-                                        <div id="add-location-popup" class="modal-demo">
-                                            <button type="button" class="close" onclick="Custombox.modal.close();">
-                                                <span>&times;</span><span class="sr-only">Close</span>
-                                            </button>
-                                            <h4 class="custom-modal-title"> Add New Location </h4>
-                                            <div class="custom-modal-text">
-
-                                                <form>
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Location Name </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Location Name">
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> City </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter City Name">
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Address </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Address ">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Latitude </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Latitude">
-                                                        </div>
-                                                        <div class="form-group col-md-6">
-                                                            <label for="inputEmail4" class="col-form-label"> Longitude </label>
-                                                            <input type="text" class="form-control" id="" placeholder="Enter Longitude">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="mew-location-map">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1597709893741!5m2!1sen!2seg" width="100%" height="245" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                                    </div>
-
-                                                </form>
-
-                                                <div class="d-flex align-items-center justify-content-between mt-1">
-                                                    <a style="color:#2f5cbd" class="btn" href="#">  </a>
-                                                    <a class="btn btn-primary" href="#"> Confirm </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-
-
-                                    </div>
-
-                                    <div class="map-content">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1597709893741!5m2!1sen!2seg" width="100%" height="445" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                        <div class="add-locations-tap">
-
-                                            <input type="text" id="simpleinput" placeholder="search..." class="form-control" >
-
-                                            <div class="full-data">
-
-                                                <h4> <i style="color: #fcab31;" class="far fa-star"></i> Warehous 1 </h4>
-
-                                                <div class="one-info">
-                                                    <label> City: </label>
-                                                    <p> Dammam </p>
-                                                </div> <!-- one-info -->
-                                                <div class="one-info">
-                                                    <label> Long & Lat: </label>
-                                                    <p> 26.4206828,50.0887943    </p>
-                                                </div> <!-- one-info -->
-                                                <div class="one-info">
-                                                    <label> Address:  </label>
-                                                    <p> 8033 Abdullah Ibn Nafi, As Sulimaniyah, Riyadh </p>
-                                                </div> <!-- one-info -->
-
-
-                                            </div>
-
-
-                                            <div class="short-data">
-                                                <h4> Pepsico </h4>
-                                                <p> Supermarket・Dammam </p>
-                                            </div>
-                                            
-                                            <a href="#" class="add-locations-btn btn  btn-block"> <i class="fas fa-plus-circle"></i> Add More Locations </a>
-
+                                    <div class="recievers d-flex align-items-center justify-content-center flex-direction-column">
+                                        <img class="img-fluid" src="assets/images/plane.png">
+                                        <h4> Whom you will deliver to? </h4>
+                                        <p> Add all receivers for your shipments in order to make the shipment order prepared. </p>
+                                        <div class=" btns d-flex align-items-center justify-content-center">
+                                            <a class="btn btn-custom1" href="#"> Bulk Upload Recievers </a>
+                                            <a class="btn btn-primary" href="#"> Add Recievers </a>
                                         </div>
                                     </div>
-
-                                    <div class="d-flex align-items-center justify-content-between mt-3">
-                                        <a style="color:#2f5cbd" class="btn" href="#"> Skip </a>
-                                        <a class="btn btn-primary" href="#"> Next </a>
-                                    </div>
-
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
 

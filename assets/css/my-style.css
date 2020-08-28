@@ -9,6 +9,9 @@ body {
 .height100 {
   height: 100%; }
 
+.width100 {
+  width: 100%; }
+
 .padding0 {
   padding: 0px; }
 
@@ -472,6 +475,45 @@ body {
     align-content: center;
     color: #2f5cbd;
     font-weight: bold; }
+.dashboard-layout .dashboard-card {
+  border: 1px solid #e4e9f3;
+  padding: 1.0rem; }
+  .dashboard-layout .dashboard-card .left {
+    margin-right: 10px; }
+    .dashboard-layout .dashboard-card .left .img-container {
+      padding: 15px;
+      border-radius: 50%; }
+      .dashboard-layout .dashboard-card .left .img-container img {
+        width: 25px; }
+  .dashboard-layout .dashboard-card .right label {
+    margin-bottom: 5px; }
+  .dashboard-layout .dashboard-card .right h4 {
+    margin: 0; }
+.dashboard-layout .main-content {
+  width: 69%; }
+.dashboard-layout .updates {
+  width: 29%; }
+  .dashboard-layout .updates .updates-card-head {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 10px; }
+  .dashboard-layout .updates .all-updates .updates-card {
+    padding: 20px;
+    background: #f3f6fb;
+    border-radius: 10px;
+    margin-bottom: 30px; }
+    .dashboard-layout .updates .all-updates .updates-card .updates-list {
+      list-style: none;
+      padding: 0px; }
+      .dashboard-layout .updates .all-updates .updates-card .updates-list img {
+        width: 20px; }
+      .dashboard-layout .updates .all-updates .updates-card .updates-list li {
+        margin-bottom: 12px; }
+        .dashboard-layout .updates .all-updates .updates-card .updates-list li a {
+          font-size: 13px; }
+        .dashboard-layout .updates .all-updates .updates-card .updates-list li label {
+          color: #808184;
+          font-size: 13px; }
 .dashboard-layout .footer {
   background-color: #eff3fc; }
   .dashboard-layout .footer .pagination {

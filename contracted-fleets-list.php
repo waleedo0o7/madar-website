@@ -341,7 +341,6 @@
 
 
                                                                 <div class="dropdown for-table notification-list" style="position: relative;">
-                                                                    
                                                                     <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                                                                                         <i class="mdi mdi-dots-vertical"></i>
                                                                     </a>
@@ -361,6 +360,7 @@
 
                                                                     </div>
                                                                 </div>
+                                                                
                                                             </td>
                                                             
 

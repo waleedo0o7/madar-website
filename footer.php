@@ -50,9 +50,7 @@
 
         <!-- App js -->
         <script src="assets/js/app.min.js"></script>
-
-
-        
+ 
         <script>
 
 			var count = $(('#count'));
@@ -71,8 +69,6 @@
 			Snap.animate(0,251.2, function( value ) {
 			    progress.attr({ 'stroke-dasharray':value+',251.2'});
 			}, 5000);
-
-
 
         </script>
 

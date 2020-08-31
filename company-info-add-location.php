@@ -185,7 +185,6 @@
                     <!-- Start Content-->
                     <div class="container">
 
-
                         <div class="row">
 
                             <div class="col-md-3 col-xs-12">
@@ -386,10 +385,7 @@
 
                                 </div> <!-- card-box -->
                             </div> <!-- col-md-3 col-xs-12 -->
-
                         </div> <!-- row -->
-
-
 
                     </div> <!-- container -->
 

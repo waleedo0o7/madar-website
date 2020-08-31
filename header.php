@@ -20,6 +20,14 @@
         
         <link href="assets/libs/select2/select2.min.css" rel="stylesheet" type="text/css" />
         
+        <link href="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+        <link href="assets/libs/switchery/switchery.min.css" rel="stylesheet" />
+        <link href="assets/libs/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+        <link href="assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet">
+        <link href="assets/libs/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet">
+        <link href="assets/libs/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -27,6 +35,7 @@
         <link href="assets/css/my-style.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/my-media.css" rel="stylesheet" type="text/css" />
 
+ 
     </head>
 
     <body class="">

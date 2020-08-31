@@ -280,7 +280,7 @@
                             <div class="btns">
                                 <div class="dropdown for-table notification-list" style="position: relative;">
                                 
-                                    <a class="btn btn-custom1 mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">     <img style="width: 14px;" src="assets/images/filter-icon.png"> Filter   </a>
+                                    <a class="btn btn-custom1 mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">  Filter   </a>
  
                                 </div>
                             </div> <!-- btns -->

@@ -133,6 +133,9 @@ form {
 .red {
   color: #f00 !important; }
 
+.blue {
+  color: #2f5cbd; }
+
 .badge-custom {
   color: #2f5cbd;
   background-color: #e6eeff;
@@ -467,8 +470,7 @@ body {
 .dashboard-layout .navbar-custom .app-search .btn {
   background: unset; }
 .dashboard-layout .content-page {
-  margin-top: 70px;
-  padding: 0; }
+  margin-top: 70px; }
 .dashboard-layout #sidebar-menu > ul > li > a {
   color: #ffffff; }
 .dashboard-layout .nav-second-level li a, .dashboard-layout .nav-thrid-level li a {
@@ -649,6 +651,27 @@ body {
     .pagination li.page-item a {
       color: #979ea9; }
 
+.card-box.gate-timing {
+  background: #f7fafd; }
+  .card-box.gate-timing .one-gate-timing {
+    padding-left: 20px;
+    position: relative;
+    padding-bottom: 15px; }
+    .card-box.gate-timing .one-gate-timing i.fa.fa-circle {
+      position: absolute;
+      left: -8px;
+      top: -1px;
+      color: #4c9aff; }
+  .card-box.gate-timing .border-left-dashed {
+    border-left: 2px dashed #4c9aff; }
+
+.instructions {
+  padding: 15px;
+  background: #f6f6f8;
+  border-radius: 5px; }
+  .instructions p {
+    font-size: 13px; }
+
 .one-result {
   padding: 10px;
   border: 1px solid #d0cfcf;
@@ -671,10 +694,23 @@ body {
   background: #f7fafd;
   border-radius: 5px;
   margin-bottom: 10px; }
+  .one-package .one-package-head {
+    border-bottom: 1px solid #d0d5e0;
+    margin-bottom: 10px;
+    padding-bottom: 10px; }
+  .one-package .one-package-footer {
+    border-top: 1px solid #d0d5e0;
+    margin-top: 10px;
+    padding-top: 10px; }
 
 .sort-container.selected a.one-sort {
   background: #2f5cbd;
   color: #fff; }
+
+.create-multiple-shipment {
+  padding: 20px;
+  border: 1px solid #bebebe;
+  margin-bottom: 20px; }
 
 .right-bar .rightbar-title {
   background-color: #ffffff; }

@@ -8,6 +8,7 @@
             <div class="navbar-custom">
                 <ul class="list-unstyled topnav-menu float-right mb-0">
 
+        
                     <li class="dropdown notification-list">
                         <a class="nav-link dropdown-toggle  waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                             <i class="fe-bell noti-icon"></i>
@@ -285,268 +286,43 @@
                     <!-- Start Content-->
                     <div class="container-fluid">
 
-                        <div class="d-flex align-items-center justify-content-between mt-3">
-                            <h3 class="mb-3"> #10858 - OB </h3> 
-                            <a class="btn btn-custom1" href="#"> Edit Shipment </a> 
-                        </div>
-
-
-                        <div class="card-box">
-                            <div class="card-head mb-3 d-flex align-items-center justify-content-between">
-                                    
-                                <h4 class="header-title mt-0">Basic Information</h4>
-
-                                <div class="dropdown ">
-                                   <div class="d-flex align-items-center justify-content-end">
-
-                                        <div class="badge badge-custom2 badge-running"> running  </div>
-                                    </div>
-                                </div>
-
-                            </div> <!-- card-head -->
-
-                            <div class="row mb-2">
-                                <div class="col">
-                                    <p class="m-0"> Package Name </p>
-                                    <label class="bold"> #10858 - OB </label>
-                                </div>
-                                <div class="col">
-                                    <p class="m-0"> Target Delivery Date </p>
-                                    <label class="bold"> 2/5/2020 </label>
-                                </div>
-                                <div class="col">
-                                    <p class="m-0"> Target Delivery Time </p>
-                                    <label class="bold"> 4:30 PM </label>
-                                </div>
-                                
+                            <div class="d-flex align-items-center justify-content-between mt-3">
+                                <h3 class="mb-3"> Upload Bulk Shipment </h3> 
                             </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="m-0"> Pickup Location </p>
-                                    <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
-                                </div>
-                            </div> <!-- row -->
-
-                        </div> <!-- card-box -->
  
+                            <div class="card-box">
 
-                        <div class="card-box">
-                            <div class="card-head mb-3 d-flex align-items-center justify-content-between">
-                                    
-                                <h4 class="header-title mt-0"> Reciever Information </h4>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="mb-4 d-flex justify-content-between align-items-center alert alert-success upload-bulk" role="alert">
+                                            <p class="m-0 bold"> It’s better to use our bulk shipments template . </p>
+                                            <a href="#"> <i class="fa fa-download"></i>  Download Template </a>
+                                        </div>
 
-                                <div class="dropdown ">
-                                   <div class="d-flex align-items-center justify-content-end">
- 
+                                        <div class=" mb-5">
+                                            <h4> Upload File </h4>
+                                            <div class="form-group mb-2 text-center">
+                                                <input type="file" class="dropify" data-height="150" />
+                                            </div>
+                                        </div> <!-- upload-logo -->
+                                    </div> <!-- col-md-8 -->
+
+                                    <div class="col-md-4">
+
+                                        <div class="instructions">
+                                            <h4 class="mt-0"> Instructions </h4>
+                                            <p class="mb-0"> A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath </p>
+                                        </div>
+
+                                    </div> <!-- col-md-4 -->
+                                </div> <!-- row -->
+
+
+                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                        <a  class="btn btn-custom1" href="#"> Cancel </a>
+                                        <a class="btn btn-primary" href="#"> Next </a>
                                     </div>
-                                </div>
-
-                            </div> <!-- card-head -->
-
-                            <div class="row mb-2">
-                                <div class="col">
-                                    <p class="m-0"> Reciever Company </p>
-                                    <label class="bold"> Tremoloo </label>
-                                </div>
-                                <div class="col">
-                                    <p class="m-0"> Reciever Name </p>
-                                    <label class="bold"> Abdelrahman </label>
-                                </div>
-                                <div class="col">
-                                </div>
-                                
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="m-0"> Drop-off Location </p>
-                                    <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
-                                </div>
-                            </div> <!-- row -->
-
-                        </div> <!-- card-box -->
- 
-
-
-                        <div class="card-box">
-                            <div class="card-head mb-3 d-flex align-items-center justify-content-between">
-                                    
-                                <h4 class="header-title mt-0"> Choosen Fleet Providers</h4>
-
-                                <div class="dropdown ">
-                                   <div class="d-flex align-items-center justify-content-end">
-                                    <a class="btn btn-primary" href="#"> Reassign New Fleets </a> 
-                                    </div>
-                                </div>
-
-                            </div> <!-- card-head -->
-
-                            <div class="fleet-providers">
-
-                                <div class="one-result">
-                                    <div class="d-flex justify-content-between">
-                                        <h4> Christopher Walker  </h4>
- 
-                                    </div> <!-- d-flex -->
-                                    <div class="states">
-                                            <p class="one-state"> Compliance   : <span class="blue bold">  99.7% </span> </p>
-                                            <p class="one-state"> Fulfillment  : <span class="green bold">  99.7% </span> </p>
-                                            <p class="one-state"> Transactions : <span class="black bold">  99.7% </span> </p>
-                                    </div>
-
-                                    <div class="d-flex justify-content-between">
-                                        <p> <i class="fa fa-map-marker-alt"></i> 568 Francisco River</p>
-                                        <p class="primary bold"> 700 SAR </p>
-                                        
-                                    </div>
-                                </div> <!-- one-result -->
-                                 
-                                <div class="one-result">
-                                    <div class="d-flex justify-content-between">
-                                        <h4> Christopher Walker  </h4> 
- 
-                                    </div> <!-- d-flex -->
-                                    <div class="states">
-                                            <p class="one-state"> Compliance   : <span class="blue bold">  99.7% </span> </p>
-                                            <p class="one-state"> Fulfillment  : <span class="green bold">  99.7% </span> </p>
-                                            <p class="one-state"> Transactions : <span class="black bold">  99.7% </span> </p>
-                                    </div>
-
-                                    <div class="d-flex justify-content-between">
-                                        <p> <i class="fa fa-map-marker-alt"></i> 568 Francisco River</p>
-                                        <p class="primary bold"> 700 SAR </p>
-                                        
-                                    </div>
-                                </div> <!-- one-result -->
-                                 
-                                <div class="one-result">
-                                    <div class="d-flex justify-content-between">
-                                        <h4> Christopher Walker  </h4> 
- 
-                                    </div> <!-- d-flex -->
-                                    <div class="states">
-                                            <p class="one-state"> Compliance   : <span class="blue bold">  99.7% </span> </p>
-                                            <p class="one-state"> Fulfillment  : <span class="green bold">  99.7% </span> </p>
-                                            <p class="one-state"> Transactions : <span class="black bold">  99.7% </span> </p>
-                                    </div>
-
-                                    <div class="d-flex justify-content-between">
-                                        <p> <i class="fa fa-map-marker-alt"></i> 568 Francisco River</p>
-                                        <p class="primary bold"> 700 SAR </p>
-                                    </div>
-                                </div> <!-- one-result -->
-                                 
-
-                            </div>
-
-                        </div> <!-- card-box -->
-
-
-                        <div class="card-box">
-                            <div class="card-head mb-3 d-flex align-items-center justify-content-between">
-                                    
-                                <h4 class="header-title mt-0"> Packages </h4>
-
-                                <div class="">
-                                </div>
-                            </div>
-
-                            <div class="row mb-2">
-                                <div class="col">
-                                    <p class="m-0"> Total Volume  </p>
-                                    <label class="bold"> 12345 M2</label>
-                                </div>
-                                <div class="col">
-                                    <p class="m-0"> Total Weight </p>
-                                    <label class="bold"> 12345 KG </label>
-                                </div>
-                                <div class="col">
-                                </div>
-                                
-                            </div>
-
-                            <div class="packages">
-                                <div class="one-package">
-                                    <h4> Package Name 1 </h4>
-
-                                    <div class="row mb-1">
-                                        <div class="col">
-                                            <p class="m-0"> Package Type  </p>
-                                            <label class="bold"> Plastic 501 </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Quantity </p>
-                                            <label class="bold"> 3500 PCS  </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Weight </p>
-                                            <label class="bold"> 200 KG  </label>
-                                        </div>
-                                    </div> <!-- row mb-2 -->
-
-                                    <div class="row mb-1">
-                                        <div class="col">
-                                            <p class="m-0"> Length  </p>
-                                            <label class="bold"> 40 CM </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Width </p>
-                                            <label class="bold"> 3500 PCS  </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Height </p>
-                                            <label class="bold"> 15 CM  </label>
-                                        </div>
-                                    </div> <!-- row mb-2 -->
-
-                                </div> <!-- one-package -->
-
-
-
-                                <div class="one-package">
-                                    <h4> Package Name 1 </h4>
-
-                                    <div class="row mb-1">
-                                        <div class="col">
-                                            <p class="m-0"> Package Type  </p>
-                                            <label class="bold"> Plastic 501 </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Quantity </p>
-                                            <label class="bold"> 3500 PCS  </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Weight </p>
-                                            <label class="bold"> 200 KG  </label>
-                                        </div>
-                                    </div> <!-- row mb-2 -->
-
-                                    <div class="row mb-1">
-                                        <div class="col">
-                                            <p class="m-0"> Length  </p>
-                                            <label class="bold"> 40 CM </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Width </p>
-                                            <label class="bold"> 3500 PCS  </label>
-                                        </div>
-                                        <div class="col">
-                                            <p class="m-0"> Height </p>
-                                            <label class="bold"> 15 CM  </label>
-                                        </div>
-                                    </div> <!-- row mb-2 -->
-
-                                </div> <!-- one-package -->
-
-
-
-
-
-
-                            </div> <!-- packages -->
-                        </div> <!-- card-head -->
-
-
-                        </div> <!-- card-box -->
+                            </div> <!-- card-box -->
 
                     </div> <!-- container -->
 

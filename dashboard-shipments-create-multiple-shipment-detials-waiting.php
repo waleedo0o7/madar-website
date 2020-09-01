@@ -8,6 +8,7 @@
             <div class="navbar-custom">
                 <ul class="list-unstyled topnav-menu float-right mb-0">
 
+        
                     <li class="dropdown notification-list">
                         <a class="nav-link dropdown-toggle  waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                             <i class="fe-bell noti-icon"></i>
@@ -298,8 +299,7 @@
 
                                 <div class="dropdown ">
                                    <div class="d-flex align-items-center justify-content-end">
-
-                                        <div class="badge badge-custom2 badge-running"> running  </div>
+                                        <div class="badge badge-custom2 badge-pending">  Awaiting For Fleet Approval  </div>
                                     </div>
                                 </div>
 
@@ -328,43 +328,7 @@
                             </div> <!-- row -->
 
                         </div> <!-- card-box -->
- 
-
-                        <div class="card-box">
-                            <div class="card-head mb-3 d-flex align-items-center justify-content-between">
-                                    
-                                <h4 class="header-title mt-0"> Reciever Information </h4>
-
-                                <div class="dropdown ">
-                                   <div class="d-flex align-items-center justify-content-end">
- 
-                                    </div>
-                                </div>
-
-                            </div> <!-- card-head -->
-
-                            <div class="row mb-2">
-                                <div class="col">
-                                    <p class="m-0"> Reciever Company </p>
-                                    <label class="bold"> Tremoloo </label>
-                                </div>
-                                <div class="col">
-                                    <p class="m-0"> Reciever Name </p>
-                                    <label class="bold"> Abdelrahman </label>
-                                </div>
-                                <div class="col">
-                                </div>
-                                
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="m-0"> Drop-off Location </p>
-                                    <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
-                                </div>
-                            </div> <!-- row -->
-
-                        </div> <!-- card-box -->
- 
+  
 
 
                         <div class="card-box">
@@ -373,8 +337,7 @@
                                 <h4 class="header-title mt-0"> Choosen Fleet Providers</h4>
 
                                 <div class="dropdown ">
-                                   <div class="d-flex align-items-center justify-content-end">
-                                    <a class="btn btn-primary" href="#"> Reassign New Fleets </a> 
+                                   <div class="d-flex align-items-center justify-content-end"> 
                                     </div>
                                 </div>
 
@@ -384,8 +347,7 @@
 
                                 <div class="one-result">
                                     <div class="d-flex justify-content-between">
-                                        <h4> Christopher Walker  </h4>
- 
+                                        <h4> Christopher Walker  </h4> 
                                     </div> <!-- d-flex -->
                                     <div class="states">
                                             <p class="one-state"> Compliance   : <span class="blue bold">  99.7% </span> </p>
@@ -402,8 +364,7 @@
                                  
                                 <div class="one-result">
                                     <div class="d-flex justify-content-between">
-                                        <h4> Christopher Walker  </h4> 
- 
+                                        <h4> Christopher Walker  </h4>  
                                     </div> <!-- d-flex -->
                                     <div class="states">
                                             <p class="one-state"> Compliance   : <span class="blue bold">  99.7% </span> </p>
@@ -420,8 +381,7 @@
                                  
                                 <div class="one-result">
                                     <div class="d-flex justify-content-between">
-                                        <h4> Christopher Walker  </h4> 
- 
+                                        <h4> Christopher Walker  </h4>  
                                     </div> <!-- d-flex -->
                                     <div class="states">
                                             <p class="one-state"> Compliance   : <span class="blue bold">  99.7% </span> </p>
@@ -444,7 +404,7 @@
                         <div class="card-box">
                             <div class="card-head mb-3 d-flex align-items-center justify-content-between">
                                     
-                                <h4 class="header-title mt-0"> Packages </h4>
+                                <h4 class="header-title mt-0"> Shipment Information </h4>
 
                                 <div class="">
                                 </div>
@@ -465,7 +425,23 @@
                             </div>
 
                             <div class="packages">
+
+
+                                
                                 <div class="one-package">
+
+                                    <div class="one-package-head">
+                                        
+                                        <h4 class="blue"> Shipment name #1 Information </h4>
+
+                                        <p> Pickup Location </p>
+
+                                        <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
+
+
+                                    </div> <!-- one-package-head -->
+
+
                                     <h4> Package Name 1 </h4>
 
                                     <div class="row mb-1">
@@ -498,11 +474,48 @@
                                         </div>
                                     </div> <!-- row mb-2 -->
 
+
+                                    <div class="one-package-footer">
+                                        
+                                        <h4 class="blue"> Reciever Information </h4>
+
+                                        <div class="row mb-1">
+                                            <div class="col">
+                                                <p class="m-0"> Reciever Company  </p>
+                                                <label class="bold"> Tremoloo </label>
+                                            </div>
+                                            <div class="col">
+                                                <p class="m-0"> Reciever Name </p>
+                                                <label class="bold"> 3500 PCS  </label>
+                                            </div>
+                                            <div class="col">
+                                            </div>
+                                        </div> <!-- row mb-2 -->
+
+                                        <p> Drop-off Location </p>
+                                        <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
+                                    </div> <!-- one-package-head -->
+
+
                                 </div> <!-- one-package -->
 
 
 
+                                
                                 <div class="one-package">
+
+                                    <div class="one-package-head">
+                                        
+                                        <h4 class="blue"> Shipment name #1 Information </h4>
+
+                                        <p> Pickup Location </p>
+
+                                        <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
+
+
+                                    </div> <!-- one-package-head -->
+
+
                                     <h4> Package Name 1 </h4>
 
                                     <div class="row mb-1">
@@ -535,7 +548,35 @@
                                         </div>
                                     </div> <!-- row mb-2 -->
 
+
+                                    <div class="one-package-footer">
+                                        
+                                        <h4 class="blue"> Reciever Information </h4>
+
+                                        <div class="row mb-1">
+                                            <div class="col">
+                                                <p class="m-0"> Reciever Company  </p>
+                                                <label class="bold"> Tremoloo </label>
+                                            </div>
+                                            <div class="col">
+                                                <p class="m-0"> Reciever Name </p>
+                                                <label class="bold"> 3500 PCS  </label>
+                                            </div>
+                                            <div class="col">
+                                            </div>
+                                        </div> <!-- row mb-2 -->
+
+                                        <p> Drop-off Location </p>
+                                        <label class="bold"> 8624, New Industrial City, Riyadh 14336, Saudi Arabia </label>
+                                    </div> <!-- one-package-head -->
+
+
                                 </div> <!-- one-package -->
+
+
+
+
+
 
 
 

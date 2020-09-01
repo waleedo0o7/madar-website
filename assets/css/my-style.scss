@@ -181,6 +181,10 @@ form{
 	color:#f00 !important;
 }
 
+.blue {
+    color: #2f5cbd;
+}
+
 .badge-custom {
     color: #2f5cbd;
     background-color: #e6eeff;
@@ -698,7 +702,6 @@ body{
 
 	.content-page{
     	margin-top: 70px;
-    	padding: 0;
 	}
 
 	#sidebar-menu>ul>li>a{
@@ -998,6 +1001,37 @@ body{
 }
 
 
+.card-box.gate-timing {
+    background: #f7fafd;
+
+	.one-gate-timing{
+		    padding-left: 20px;
+		    position: relative;
+		    padding-bottom: 15px;
+			i.fa.fa-circle {
+			    position: absolute;
+				left: -8px;
+				top: -1px;
+				color: #4c9aff;
+			}
+	}
+
+	.border-left-dashed{
+		border-left: 2px dashed #4c9aff;
+	}
+
+}
+
+.instructions {
+    padding: 15px;
+    background: #f6f6f8;
+    border-radius: 5px;
+    p{
+    	font-size: 13px;
+    }
+}
+
+
 .one-result {
     padding: 10px;
     border: 1px solid #d0cfcf;
@@ -1026,12 +1060,34 @@ body{
     background: #f7fafd;
     border-radius: 5px;
     margin-bottom: 10px;
+
+	.one-package-head{
+		border-bottom: 1px solid #d0d5e0;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	.one-package-footer {
+		border-top: 1px solid #d0d5e0;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
 }
+
 
 .sort-container.selected a.one-sort {
     background: #2f5cbd;
     color: #fff;
 }
+
+
+
+.create-multiple-shipment {
+    padding: 20px;
+    border: 1px solid #bebebe;
+    margin-bottom: 20px;
+}
+
 
 
 .right-bar .rightbar-title{
